@@ -1,1 +1,1 @@
-# S-curry-T
+# CQ🍚T
