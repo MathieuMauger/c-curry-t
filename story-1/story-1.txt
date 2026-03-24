@@ -1,0 +1,3 @@
+on a exécuté : "Get-FileHash app.apk -Algorithm SHA256"
+
+On a obtenu le hash : F01F08C8B6E2FE4612E81BC7E3A3BA9440DAD0D7A962F4E67640390DD721D528   
