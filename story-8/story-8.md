@@ -14,12 +14,12 @@ Ce qui nous a donner un fichier nommé "CodingFactory" disponible dans le dossie
 
 Pour signer l'application maintenant nous avons mis l'apk rebuild ainsi que le fichier de la clé dans le meme dossier et executé la commande suivante:
 
-`keytool -genkey -v -keystore [your keystore name] -alias alias_name -keyalg RSA -keysize 2048 -validity 10000`
+`apksigner sign --ks CodingFactory --ks-key-alias alias_name rebuilt.apk`
 
 Ce qui nous a donner le fichier d'apk signé disponible dans le dossier story-08
 
 Nous avons ensuite executé la commande:
 
-`apksigner verify --verbose --print-certs rebuild_signed.apk`
+`apksigner verify --verbose --print-certs rebuilt_signed.apk`
 
 Pour vérifier si le fichier était bien signé. Le résultat est disponible dans un screenshot dans le dossier story-08
